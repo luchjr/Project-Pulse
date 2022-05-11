@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luchjr/first-project.git"
+    "url": "git+https://github.com/luchjr/project-pulse.git"
   },
   "author": "luch",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luchjr/first-project/issues"
+    "url": "https://github.com/luchjr/project-pulse/issues"
   },
-  "homepage": "https://github.com/luchjr/first-project#readme",
+  "homepage": "https://github.com/luchjr/project-pulse#readme",
   "devDependencies": {
     "browser-sync": "^2.27.9",
     "gulp": "^4.0.2",
