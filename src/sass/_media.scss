@@ -1,0 +1,38 @@
+@media  ( max-width: 991px ) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media  ( max-width: 767px ) {
+    .header {
+        flex-wrap: wrap;
+        &__contacts {
+            margin: 10px auto;
+        }
+    }
+
+    .advantages__wrapper {
+        flex-direction: column;
+        align-items: center
+    }
+}
+
+@media  ( max-width: 575px ) {
+    .header__logo {
+        margin: 0 auto;
+    }
+
+    .header__official {
+        margin: 10px auto;
+    }
+
+    .promo__header {
+        font-size: 24px;
+    }
+
+    .promo__icons {
+        width: 300px;
+    }
+}
+    
