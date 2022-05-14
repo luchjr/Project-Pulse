@@ -2,7 +2,20 @@
     .container {
         padding: 0 15px;
     }
+
+    .catalog {
+        &__content {
+            justify-content: center;
+        }  
+    }
+
+    .catalog-item {
+        margin: 10px;
+    }
 }
+
+
+
 
 @media  ( max-width: 767px ) {
     .header {
@@ -16,6 +29,16 @@
         flex-direction: column;
         align-items: center
     }
+
+    .carousel {
+        &__inner {
+            width: 550px !important;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
 }
 
 @media  ( max-width: 575px ) {
@@ -34,5 +57,25 @@
     .promo__icons {
         width: 300px;
     }
+
+    .carousel {
+        &__inner {
+            width: 300px !important;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            align-items: center;
+            }
+        &__tab {
+            margin: 5px 0;
+        }
+    }
+    
 }
     
