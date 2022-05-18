@@ -76,6 +76,38 @@
             margin: 5px 0;
         }
     }
+
+    .review-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-text {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .modal {
+        width: 300px;
+        padding: 20px 10px;
+            &__close {
+                top: -40px;
+                right: 45%;
+                font-size: 40px;
+                line-height: 20px;
+                color: $main-color;
+                cursor: pointer;
+            }
+    }
+
+    .footer__info {
+        width: 320px;
+    }
+
+    .feed-form {
+        width: 280px;
+    }
+
     
 }
     
