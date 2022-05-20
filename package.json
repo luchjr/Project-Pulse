@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/luchjr/project-pulse#readme",
   "devDependencies": {
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.27.9",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
